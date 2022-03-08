@@ -1,0 +1,26 @@
+a=int(input("a:"))
+b=int(input("b:"))
+işlem=input("işlem seç:")
+if işlem=="1":
+    print(f"{a} ile {b} nin toplamı {a+b} dir...")
+elif işlem=="2":
+    if a>=b:
+        print(f"{a} ile {b} nin farkı {a-b} dir...")
+    else:
+        print(f"{b} ile {a} nin farkı {b-a}dır.")
+elif işlem=="3":
+    print(f"{a} ile {b} nin çarpımı {a*b} dir...")
+elif işlem=="4":
+    if a>=b:
+        print(f"{a} ile {b} nin bölümü {a/b} dir...")
+    else:
+        print(f"{b} ile {a} nın bölümü {b/a}")
+elif işlem=="5":
+    if a>=b:
+        print(f"{a} ile {b} nin modu {a%b} dir...")
+    else:
+        print(f"{b} ile {a} nın modu {b%a} dır..")
+elif işlem=="q":
+    print("çıkış yapılıyor...")
+else:
+    print("geçersiz işlem")
